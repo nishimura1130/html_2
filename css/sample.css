@@ -1,0 +1,133 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  text-align: center;
+}
+.main-header {
+  padding-bottom: 15%;
+  width: 100%;
+  background-size: cover;
+  background-image: url("../images-master/header.jpg");
+  background-attachment: fixed;
+
+
+
+}
+
+
+header {
+  
+  background-color: #2B2B2B;
+  height: 50px;
+  font-size: 1rem;
+
+
+}
+header ul {
+  background-size: cover;
+  background-position: center center;
+ margin: 0; 
+  padding: 0;
+  
+}
+header ul a {
+  color: #ffffff;
+  text-decoration: none;
+
+}
+.left {
+  float: left;
+  height: 50px;
+  width: 110px;
+}
+.right{
+  float: right;
+  height: 50px;
+  width: 110px;
+}
+header li {
+  float: left;
+  padding: 15px;
+
+}
+header ul:after {
+  clear: both;
+  content: ""; 
+}
+/* ここまでがheader部分の実装 */
+.main-header img {
+  /* main画像（白い「Achieve」の文字の画像）部分の実装 */
+  width: 13%;
+  /* position: relative; */
+  /* align-items: center; */
+  /* margin: 0; */
+  /* display: table-cell; */
+	/* width: 400px; */
+	/* height: 400px; */
+	/* background: #CCCCCC; */
+  position:relative;
+  top: 90px;
+  /* display: flex; */
+}
+
+.about {
+  /* About Achieve部分の実装 */
+  text-align: center;
+  background-size: cover;
+  background-position: center center;
+}
+
+.about h1{
+  font-size: 1.5rem;;
+  padding: 20px 0px;
+}
+
+.about p {
+  font-size: 0.8rem;
+  margin: 5px;
+  margin: 20px;
+}
+
+/* ここから */
+.function {
+  /* text-align: center; */
+  /* display: flex; */
+  background-color:#D3D3D3;
+  justify-content: center;
+  margin-top: 10px;
+  padding: 30px;
+}
+
+.function h1{
+  font-size: 1.5rem;
+  font-weight: bold;;
+}
+
+.function-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.function-image {
+  margin: 30px;
+}
+
+/* ここまでがfunction部分の実装 */
+footer {
+  /* footer部分の実装 */
+  height: 70px;
+  background-color: #283A4B;
+  font-size: 0.8rem;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* display: table; */
+  /* position: absolute; */
+}
+footer p {
+  margin: 8px;
+}
